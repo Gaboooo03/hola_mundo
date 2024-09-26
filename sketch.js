@@ -1,16 +1,20 @@
 function setup(){
 createCanvas (windowWidth, windowHeight);
-frameRate(50);
+frameRate(300);
 background (0);
 rectMode(CENTER);
 
 }
 function draw(){
-background(90, random(30, 130),6 ,5);
-fill(255, mouseX, 54);
-circle(mouseX + 70, mouseY, mouseX );
-fill(150, 200, 3);
-rect(mouseX, mouseY,100,100);
+    background(90, random(30, 80),90 ,10);
+
+circle(mouseX,mouseY, 50);
+noStroke();
+fill(random(10, 255), random(20,255), random(32,56,211));
+
+
+
+
 
 
 }
